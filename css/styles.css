@@ -1,0 +1,92 @@
+*{
+    margin: 0;    
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3,h4, h5, h6, p {
+    margin-bottom: 20px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: inherit;
+    color: whitesmoke;
+    margin-left: 30px;
+    line-height: 50px;
+    font-style: oblique;
+}
+
+.sect {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.subSection {
+    height: 25%;
+    background-color: gray;
+}
+
+.sectOne {
+    background-image: url("../images/hanu2.jpg");
+}
+
+.sectTwo {
+    background-image: url("../images/hamu.jpg");
+}
+
+.sectThree {
+    background-image: url("../images/hamu3.jpg");
+}
+
+
+body {
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 0.7em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+p{
+    font-style: normal;
+}
+p{
+    color: antiquewhite;
+}
+
+p.normal {
+    font-weight: bolder;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+footer {
+    display: block;
+    font-size: 1.2em;
+    font-style: oblique;
+    color: bisque;
+    background-color: dimgray
+}
